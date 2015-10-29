@@ -22,11 +22,26 @@ body{
   margin: 0;
 }
 
+.blue{
+  background-color: #1c75bc;
+  color: white;
+  padding: 0.5em;
+}
+
+.list{
+  background-color: none;
+  padding: 0.5em;
+  clear: both;
+}
+
 .grey{
   text-align: center;
   background-color: #e6e7e8;
 }
 
+.grey-left{
+  background-color: #e6e7e8;
+}
 h1{
   text-align: center;
 }

@@ -1,21 +1,5 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
   font-family: sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 body{
@@ -28,53 +12,11 @@ body{
   padding: 0.5em;
 }
 
-.list{
-  padding: 0.5em;
-  clear: both;
-}
-
 .grey{
-  text-align: center;
   background-color: #e6e7e8;
 }
 
-.grey-left{
-  background-color: #e6e7e8;
-}
-h1{
-  text-align: center;
-}
 
-dl{
-  padding: 0;
-}
-
-.img-flex{
-  width: 100%;
-  display: block;
-}
-
-.gutter{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-ul{
-  list-style-type: none;
-}
-
-header, footer{
+.dark-grey{
   background-color: lightgrey;
-}
-
-@media only screen and (min-width: 25em){
-
-  li{
-    display: inline-block;
-  }
-
-  ul{
-    text-align: center;
-  }
-
 }

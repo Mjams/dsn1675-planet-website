@@ -6,41 +6,40 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width, intial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1-4 l-1-4">
-    <h1>Venus</h1>
-  </div>
+  <header class="dark-grey">
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-4 l-1-4">
+      <h1 class="text-center island push-0">Venus</h1>
+    </div>
 
-  <div class="unit xs-1 s-1 m-3-4 l-3-4">
-    <nav>
-      <ul>
-        <li><a class="pad-top-half pad-bottom-half list" href="index.html">Planet</a></li>
-        <li><a class="pad-top-half pad-bottom-half blue" href="moon.html">Moons</a></li>
-        <li><a class="pad-top-half pad-bottom-half list" href="exploration.html">Exploration</a></li>
-      </ul>
-    </nav>
+      <nav class="unit xs-1 s-1 m-3-4 l-3-4 island">
+        <ul class="text-center mega list-group list-group--inline push-0">
+          <li><a href="index.html">Planet</a></li>
+          <li><a class="blue" href="moon.html">Moons</a></li>
+          <li><a href="exploration.html">Exploration</a></li>
+        </ul>
+      </nav>
   </div>
-</div>
-</header>
+  </header>
 
-<h2 class="grey">Moons</h2>
+<h2 class="text-center grey">Moons</h2>
 
 <div class="grid">
 
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half">
     <div class="grid">
     <div class="unit xs-1 s-1 m-1 l-1-2">
       <img class="img-flex" src="images/venus-moon-1.jpg" alt="">
     </div>
-    <div class="unit xs-1 s-1 m-1 l-1-2">
+    <div class="unit xs-1 s-1 m-1 l-1-2 gutter-half">
       <h3>Venus’s Fake Moon 1</h3>
       <p>This moon is amazing it looks like it’s habitable by humans.</p>
     </div>
@@ -59,12 +58,12 @@
   </div>
 
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half">
     <div class="grid">
     <div class="unit xs-1 s-1 m-1 l-1-2">
       <img class="img-flex" src="images/venus-moon-2.jpg" alt="">
       </div>
-      <div class="unit xs-1 s-1 m-1 l-1-2">
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-half">
         <h3>Venus’s Fake Moon 2</h3>
         <p>Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
       </div>
@@ -82,22 +81,20 @@
   </div>
 </div>
 
-<footer>
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter">
-    <aside class="pad-top-half pad-bottom-half">© 2014 Venus Planetary Consortium</aside>
-  </div>
+<footer class="dark-grey">
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-4 l-1-4">
+      <aside class="island-half">© 2014 Venus Planetary Consortium</aside>
+    </div>
 
-  <div class="unit xs-1 s-1 m-3-4 l-3-4">
-    <nav>
-      <ul>
+    <nav class="unit xs-1 s-1 m-3-4 l-3-4 island">
+      <ul class="text-center list-group list-group--inline push-0">
         <li><a href="index.html">Planet</a></li>
         <li><a href="moon.html">Moons</a></li>
         <li><a href="exploration.html">Exploration</a></li>
       </ul>
     </nav>
   </div>
-</div>
 </footer>
 
 </body>
